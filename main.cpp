@@ -3,11 +3,8 @@
 
 using namespace std;
 
-int secretNum = 0;
+int secretNum = rand() % 100 + 1;
 
-void genNum(){
-    secretNum = rand() % 10 + 1;
-}
 
 bool checkAns(int ans) {
     if(ans == secretNum)
@@ -29,7 +26,6 @@ void startGame(){
 }
 
 int main() {
-    genNum();
     startGame();
 
     return 0;
