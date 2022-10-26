@@ -36,10 +36,8 @@ void startGame(){
 }
 ```
 
-You can change the scope of the random number by editing the ```secretNum``` under the ```genNum()``` function.
+You can change the scope of the random number by editing the ```secretNum```.
 
 ```
-void genNum(){
-  secretNum = rand() % x(defined by you) + 1;
-}
+secretNum = rand() % x(defined by you) + 1;
 ```
